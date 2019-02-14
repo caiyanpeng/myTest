@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C427F0BC22016FE200D894C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C427F0BB22016FE200D894C4 /* AppDelegate.m */; };
+		C427F0BF22016FE200D894C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C427F0BE22016FE200D894C4 /* ViewController.m */; };
+		C427F0C222016FE200D894C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C427F0C022016FE200D894C4 /* Main.storyboard */; };
+		C427F0C422016FE400D894C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C427F0C322016FE400D894C4 /* Assets.xcassets */; };
+		C427F0C722016FE400D894C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C427F0C522016FE400D894C4 /* LaunchScreen.storyboard */; };
+		C427F0CA22016FE400D894C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C427F0C922016FE400D894C4 /* main.m */; };
+		C427F0D422016FE400D894C4 /* VTBoxEncodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C427F0D322016FE400D894C4 /* VTBoxEncodingTests.m */; };
+		C427F0DF22016FE400D894C4 /* VTBoxEncodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C427F0DE22016FE400D894C4 /* VTBoxEncodingUITests.m */; };
+		C480D07E2212BF6900557183 /* AACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C480D07D2212BF6900557183 /* AACEncoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C427F0D022016FE400D894C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C427F0AF22016FE200D894C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C427F0B622016FE200D894C4;
+			remoteInfo = VTBoxEncoding;
+		};
+		C427F0DB22016FE400D894C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C427F0AF22016FE200D894C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C427F0B622016FE200D894C4;
+			remoteInfo = VTBoxEncoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C427F0B722016FE200D894C4 /* VTBoxEncoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTBoxEncoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C427F0BA22016FE200D894C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C427F0BB22016FE200D894C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C427F0BD22016FE200D894C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C427F0BE22016FE200D894C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C427F0C122016FE200D894C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C427F0C322016FE400D894C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C427F0C622016FE400D894C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C427F0C822016FE400D894C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C427F0C922016FE400D894C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C427F0CF22016FE400D894C4 /* VTBoxEncodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTBoxEncodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C427F0D322016FE400D894C4 /* VTBoxEncodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTBoxEncodingTests.m; sourceTree = "<group>"; };
+		C427F0D522016FE400D894C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C427F0DA22016FE400D894C4 /* VTBoxEncodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTBoxEncodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C427F0DE22016FE400D894C4 /* VTBoxEncodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTBoxEncodingUITests.m; sourceTree = "<group>"; };
+		C427F0E022016FE400D894C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C480D07C2212BF6900557183 /* AACEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACEncoder.h; sourceTree = "<group>"; };
+		C480D07D2212BF6900557183 /* AACEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACEncoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C427F0B422016FE200D894C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C427F0CC22016FE400D894C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C427F0D722016FE400D894C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C427F0AE22016FE200D894C4 = {
+			isa = PBXGroup;
+			children = (
+				C427F0B922016FE200D894C4 /* VTBoxEncoding */,
+				C427F0D222016FE400D894C4 /* VTBoxEncodingTests */,
+				C427F0DD22016FE400D894C4 /* VTBoxEncodingUITests */,
+				C427F0B822016FE200D894C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C427F0B822016FE200D894C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C427F0B722016FE200D894C4 /* VTBoxEncoding.app */,
+				C427F0CF22016FE400D894C4 /* VTBoxEncodingTests.xctest */,
+				C427F0DA22016FE400D894C4 /* VTBoxEncodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C427F0B922016FE200D894C4 /* VTBoxEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				C427F0BA22016FE200D894C4 /* AppDelegate.h */,
+				C427F0BB22016FE200D894C4 /* AppDelegate.m */,
+				C427F0BD22016FE200D894C4 /* ViewController.h */,
+				C427F0BE22016FE200D894C4 /* ViewController.m */,
+				C427F0C022016FE200D894C4 /* Main.storyboard */,
+				C427F0C322016FE400D894C4 /* Assets.xcassets */,
+				C427F0C522016FE400D894C4 /* LaunchScreen.storyboard */,
+				C427F0C822016FE400D894C4 /* Info.plist */,
+				C427F0C922016FE400D894C4 /* main.m */,
+				C480D07C2212BF6900557183 /* AACEncoder.h */,
+				C480D07D2212BF6900557183 /* AACEncoder.m */,
+			);
+			path = VTBoxEncoding;
+			sourceTree = "<group>";
+		};
+		C427F0D222016FE400D894C4 /* VTBoxEncodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C427F0D322016FE400D894C4 /* VTBoxEncodingTests.m */,
+				C427F0D522016FE400D894C4 /* Info.plist */,
+			);
+			path = VTBoxEncodingTests;
+			sourceTree = "<group>";
+		};
+		C427F0DD22016FE400D894C4 /* VTBoxEncodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C427F0DE22016FE400D894C4 /* VTBoxEncodingUITests.m */,
+				C427F0E022016FE400D894C4 /* Info.plist */,
+			);
+			path = VTBoxEncodingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C427F0B622016FE200D894C4 /* VTBoxEncoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C427F0E322016FE400D894C4 /* Build configuration list for PBXNativeTarget "VTBoxEncoding" */;
+			buildPhases = (
+				C427F0B322016FE200D894C4 /* Sources */,
+				C427F0B422016FE200D894C4 /* Frameworks */,
+				C427F0B522016FE200D894C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTBoxEncoding;
+			productName = VTBoxEncoding;
+			productReference = C427F0B722016FE200D894C4 /* VTBoxEncoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C427F0CE22016FE400D894C4 /* VTBoxEncodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C427F0E622016FE400D894C4 /* Build configuration list for PBXNativeTarget "VTBoxEncodingTests" */;
+			buildPhases = (
+				C427F0CB22016FE400D894C4 /* Sources */,
+				C427F0CC22016FE400D894C4 /* Frameworks */,
+				C427F0CD22016FE400D894C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C427F0D122016FE400D894C4 /* PBXTargetDependency */,
+			);
+			name = VTBoxEncodingTests;
+			productName = VTBoxEncodingTests;
+			productReference = C427F0CF22016FE400D894C4 /* VTBoxEncodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C427F0D922016FE400D894C4 /* VTBoxEncodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C427F0E922016FE400D894C4 /* Build configuration list for PBXNativeTarget "VTBoxEncodingUITests" */;
+			buildPhases = (
+				C427F0D622016FE400D894C4 /* Sources */,
+				C427F0D722016FE400D894C4 /* Frameworks */,
+				C427F0D822016FE400D894C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C427F0DC22016FE400D894C4 /* PBXTargetDependency */,
+			);
+			name = VTBoxEncodingUITests;
+			productName = VTBoxEncodingUITests;
+			productReference = C427F0DA22016FE400D894C4 /* VTBoxEncodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C427F0AF22016FE200D894C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.medosport.mo;
+				TargetAttributes = {
+					C427F0B622016FE200D894C4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C427F0CE22016FE400D894C4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C427F0B622016FE200D894C4;
+					};
+					C427F0D922016FE400D894C4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C427F0B622016FE200D894C4;
+					};
+				};
+			};
+			buildConfigurationList = C427F0B222016FE200D894C4 /* Build configuration list for PBXProject "VTBoxEncoding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C427F0AE22016FE200D894C4;
+			productRefGroup = C427F0B822016FE200D894C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C427F0B622016FE200D894C4 /* VTBoxEncoding */,
+				C427F0CE22016FE400D894C4 /* VTBoxEncodingTests */,
+				C427F0D922016FE400D894C4 /* VTBoxEncodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C427F0B522016FE200D894C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C427F0C722016FE400D894C4 /* LaunchScreen.storyboard in Resources */,
+				C427F0C422016FE400D894C4 /* Assets.xcassets in Resources */,
+				C427F0C222016FE200D894C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C427F0CD22016FE400D894C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C427F0D822016FE400D894C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C427F0B322016FE200D894C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480D07E2212BF6900557183 /* AACEncoder.m in Sources */,
+				C427F0BF22016FE200D894C4 /* ViewController.m in Sources */,
+				C427F0CA22016FE400D894C4 /* main.m in Sources */,
+				C427F0BC22016FE200D894C4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C427F0CB22016FE400D894C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C427F0D422016FE400D894C4 /* VTBoxEncodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C427F0D622016FE400D894C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C427F0DF22016FE400D894C4 /* VTBoxEncodingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C427F0D122016FE400D894C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C427F0B622016FE200D894C4 /* VTBoxEncoding */;
+			targetProxy = C427F0D022016FE400D894C4 /* PBXContainerItemProxy */;
+		};
+		C427F0DC22016FE400D894C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C427F0B622016FE200D894C4 /* VTBoxEncoding */;
+			targetProxy = C427F0DB22016FE400D894C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C427F0C022016FE200D894C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C427F0C122016FE200D894C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C427F0C522016FE400D894C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C427F0C622016FE400D894C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C427F0E122016FE400D894C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C427F0E222016FE400D894C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C427F0E422016FE400D894C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = VTBoxEncoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.VTBoxEncoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C427F0E522016FE400D894C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = VTBoxEncoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.VTBoxEncoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C427F0E722016FE400D894C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = VTBoxEncodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.VTBoxEncodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTBoxEncoding.app/VTBoxEncoding";
+			};
+			name = Debug;
+		};
+		C427F0E822016FE400D894C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = VTBoxEncodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.VTBoxEncodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTBoxEncoding.app/VTBoxEncoding";
+			};
+			name = Release;
+		};
+		C427F0EA22016FE400D894C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = VTBoxEncodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.VTBoxEncodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VTBoxEncoding;
+			};
+			name = Debug;
+		};
+		C427F0EB22016FE400D894C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = VTBoxEncodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.VTBoxEncodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VTBoxEncoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C427F0B222016FE200D894C4 /* Build configuration list for PBXProject "VTBoxEncoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C427F0E122016FE400D894C4 /* Debug */,
+				C427F0E222016FE400D894C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C427F0E322016FE400D894C4 /* Build configuration list for PBXNativeTarget "VTBoxEncoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C427F0E422016FE400D894C4 /* Debug */,
+				C427F0E522016FE400D894C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C427F0E622016FE400D894C4 /* Build configuration list for PBXNativeTarget "VTBoxEncodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C427F0E722016FE400D894C4 /* Debug */,
+				C427F0E822016FE400D894C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C427F0E922016FE400D894C4 /* Build configuration list for PBXNativeTarget "VTBoxEncodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C427F0EA22016FE400D894C4 /* Debug */,
+				C427F0EB22016FE400D894C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C427F0AF22016FE200D894C4 /* Project object */;
+}
