@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C480D04C221263B100557183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C480D04B221263B100557183 /* AppDelegate.m */; };
+		C480D04F221263B100557183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C480D04E221263B100557183 /* ViewController.m */; };
+		C480D052221263B100557183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C480D050221263B100557183 /* Main.storyboard */; };
+		C480D054221263B300557183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C480D053221263B300557183 /* Assets.xcassets */; };
+		C480D057221263B300557183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C480D055221263B300557183 /* LaunchScreen.storyboard */; };
+		C480D05A221263B300557183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C480D059221263B300557183 /* main.m */; };
+		C480D064221263B300557183 /* H264DecodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C480D063221263B300557183 /* H264DecodeDemoTests.m */; };
+		C480D06F221263B300557183 /* H264DecodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C480D06E221263B300557183 /* H264DecodeDemoUITests.m */; };
+		C4B61B7B2215498D00188B9B /* AACPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B61B7A2215498D00188B9B /* AACPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C480D060221263B300557183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C480D03F221263B100557183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C480D046221263B100557183;
+			remoteInfo = H264DecodeDemo;
+		};
+		C480D06B221263B300557183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C480D03F221263B100557183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C480D046221263B100557183;
+			remoteInfo = H264DecodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C480D047221263B100557183 /* H264DecodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H264DecodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C480D04A221263B100557183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C480D04B221263B100557183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C480D04D221263B100557183 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C480D04E221263B100557183 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C480D051221263B100557183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C480D053221263B300557183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C480D056221263B300557183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C480D058221263B300557183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C480D059221263B300557183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C480D05F221263B300557183 /* H264DecodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H264DecodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C480D063221263B300557183 /* H264DecodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264DecodeDemoTests.m; sourceTree = "<group>"; };
+		C480D065221263B300557183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C480D06A221263B300557183 /* H264DecodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H264DecodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C480D06E221263B300557183 /* H264DecodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264DecodeDemoUITests.m; sourceTree = "<group>"; };
+		C480D070221263B300557183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B61B792215498D00188B9B /* AACPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACPlayer.h; sourceTree = "<group>"; };
+		C4B61B7A2215498D00188B9B /* AACPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C480D044221263B100557183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C480D05C221263B300557183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C480D067221263B300557183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C480D03E221263B100557183 = {
+			isa = PBXGroup;
+			children = (
+				C480D049221263B100557183 /* H264DecodeDemo */,
+				C480D062221263B300557183 /* H264DecodeDemoTests */,
+				C480D06D221263B300557183 /* H264DecodeDemoUITests */,
+				C480D048221263B100557183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C480D048221263B100557183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C480D047221263B100557183 /* H264DecodeDemo.app */,
+				C480D05F221263B300557183 /* H264DecodeDemoTests.xctest */,
+				C480D06A221263B300557183 /* H264DecodeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C480D049221263B100557183 /* H264DecodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C480D04A221263B100557183 /* AppDelegate.h */,
+				C480D04B221263B100557183 /* AppDelegate.m */,
+				C480D04D221263B100557183 /* ViewController.h */,
+				C480D04E221263B100557183 /* ViewController.m */,
+				C4B61B792215498D00188B9B /* AACPlayer.h */,
+				C4B61B7A2215498D00188B9B /* AACPlayer.m */,
+				C480D050221263B100557183 /* Main.storyboard */,
+				C480D053221263B300557183 /* Assets.xcassets */,
+				C480D055221263B300557183 /* LaunchScreen.storyboard */,
+				C480D058221263B300557183 /* Info.plist */,
+				C480D059221263B300557183 /* main.m */,
+			);
+			path = H264DecodeDemo;
+			sourceTree = "<group>";
+		};
+		C480D062221263B300557183 /* H264DecodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C480D063221263B300557183 /* H264DecodeDemoTests.m */,
+				C480D065221263B300557183 /* Info.plist */,
+			);
+			path = H264DecodeDemoTests;
+			sourceTree = "<group>";
+		};
+		C480D06D221263B300557183 /* H264DecodeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C480D06E221263B300557183 /* H264DecodeDemoUITests.m */,
+				C480D070221263B300557183 /* Info.plist */,
+			);
+			path = H264DecodeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C480D046221263B100557183 /* H264DecodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C480D073221263B300557183 /* Build configuration list for PBXNativeTarget "H264DecodeDemo" */;
+			buildPhases = (
+				C480D043221263B100557183 /* Sources */,
+				C480D044221263B100557183 /* Frameworks */,
+				C480D045221263B100557183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = H264DecodeDemo;
+			productName = H264DecodeDemo;
+			productReference = C480D047221263B100557183 /* H264DecodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C480D05E221263B300557183 /* H264DecodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C480D076221263B300557183 /* Build configuration list for PBXNativeTarget "H264DecodeDemoTests" */;
+			buildPhases = (
+				C480D05B221263B300557183 /* Sources */,
+				C480D05C221263B300557183 /* Frameworks */,
+				C480D05D221263B300557183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C480D061221263B300557183 /* PBXTargetDependency */,
+			);
+			name = H264DecodeDemoTests;
+			productName = H264DecodeDemoTests;
+			productReference = C480D05F221263B300557183 /* H264DecodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C480D069221263B300557183 /* H264DecodeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C480D079221263B300557183 /* Build configuration list for PBXNativeTarget "H264DecodeDemoUITests" */;
+			buildPhases = (
+				C480D066221263B300557183 /* Sources */,
+				C480D067221263B300557183 /* Frameworks */,
+				C480D068221263B300557183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C480D06C221263B300557183 /* PBXTargetDependency */,
+			);
+			name = H264DecodeDemoUITests;
+			productName = H264DecodeDemoUITests;
+			productReference = C480D06A221263B300557183 /* H264DecodeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C480D03F221263B100557183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.medosport.mo;
+				TargetAttributes = {
+					C480D046221263B100557183 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C480D05E221263B300557183 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C480D046221263B100557183;
+					};
+					C480D069221263B300557183 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C480D046221263B100557183;
+					};
+				};
+			};
+			buildConfigurationList = C480D042221263B100557183 /* Build configuration list for PBXProject "H264DecodeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C480D03E221263B100557183;
+			productRefGroup = C480D048221263B100557183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C480D046221263B100557183 /* H264DecodeDemo */,
+				C480D05E221263B300557183 /* H264DecodeDemoTests */,
+				C480D069221263B300557183 /* H264DecodeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C480D045221263B100557183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480D057221263B300557183 /* LaunchScreen.storyboard in Resources */,
+				C480D054221263B300557183 /* Assets.xcassets in Resources */,
+				C480D052221263B100557183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C480D05D221263B300557183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C480D068221263B300557183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C480D043221263B100557183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B61B7B2215498D00188B9B /* AACPlayer.m in Sources */,
+				C480D04F221263B100557183 /* ViewController.m in Sources */,
+				C480D05A221263B300557183 /* main.m in Sources */,
+				C480D04C221263B100557183 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C480D05B221263B300557183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480D064221263B300557183 /* H264DecodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C480D066221263B300557183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480D06F221263B300557183 /* H264DecodeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C480D061221263B300557183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C480D046221263B100557183 /* H264DecodeDemo */;
+			targetProxy = C480D060221263B300557183 /* PBXContainerItemProxy */;
+		};
+		C480D06C221263B300557183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C480D046221263B100557183 /* H264DecodeDemo */;
+			targetProxy = C480D06B221263B300557183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C480D050221263B100557183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C480D051221263B100557183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C480D055221263B300557183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C480D056221263B300557183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C480D071221263B300557183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C480D072221263B300557183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C480D074221263B300557183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = H264DecodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.H264DecodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C480D075221263B300557183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = H264DecodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.H264DecodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C480D077221263B300557183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = H264DecodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.H264DecodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H264DecodeDemo.app/H264DecodeDemo";
+			};
+			name = Debug;
+		};
+		C480D078221263B300557183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = H264DecodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.H264DecodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H264DecodeDemo.app/H264DecodeDemo";
+			};
+			name = Release;
+		};
+		C480D07A221263B300557183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = H264DecodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.H264DecodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = H264DecodeDemo;
+			};
+			name = Debug;
+		};
+		C480D07B221263B300557183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZX5LT95X4;
+				INFOPLIST_FILE = H264DecodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medosport.mo.H264DecodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = H264DecodeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C480D042221263B100557183 /* Build configuration list for PBXProject "H264DecodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480D071221263B300557183 /* Debug */,
+				C480D072221263B300557183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C480D073221263B300557183 /* Build configuration list for PBXNativeTarget "H264DecodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480D074221263B300557183 /* Debug */,
+				C480D075221263B300557183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C480D076221263B300557183 /* Build configuration list for PBXNativeTarget "H264DecodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480D077221263B300557183 /* Debug */,
+				C480D078221263B300557183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C480D079221263B300557183 /* Build configuration list for PBXNativeTarget "H264DecodeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480D07A221263B300557183 /* Debug */,
+				C480D07B221263B300557183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C480D03F221263B100557183 /* Project object */;
+}
